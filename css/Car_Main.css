@@ -1,0 +1,47 @@
+.main-container{
+    position: relative;
+    max-width: 1200px;
+    display: flex;
+    margin:0 auto;
+}
+
+.header {
+    width: 20%;
+    height: 1000px;
+
+    float: left;
+    
+    padding-left:1%;
+    padding-right:1%;
+    background-color: lightgray;
+}
+
+.section {
+    /* position:relative; */
+    width: 80%;
+    height: 1000px;
+
+    float: right;
+
+    background-color: darkgreen;
+}
+
+.footer {
+    background-color: lightgray;
+    width: 1200px;
+    height: 100px;
+    margin:0 auto;
+
+    position:relative;
+    clear: left;
+}
+
+.margin-1 {
+    margin: 1%;
+}
+
+.layout-boxsizing {
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
