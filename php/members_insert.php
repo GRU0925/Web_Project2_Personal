@@ -34,7 +34,7 @@
         var windowX = (window.screen.width / 2) - (600 / 2);
         var windowY = (window.screen.height / 2) - (500 / 2);
 
-        window.open("/source/Project2/php/login.php", "Login",
+        window.open("/p2/swKim/Project2/php/login.php", "Login",
             "left="+ windowX +", top=" + windowY + ", width=600, height=500, scrollbars=no");
       }
 </script>

@@ -9,7 +9,7 @@
 
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
-    <link rel="stylesheet" href="/source/Project2/css/login.css">
+    <link rel="stylesheet" href="/p2/swKim/Project2/css/login.css">
     
     <title>RentaCar Login</title>
     
@@ -95,25 +95,22 @@
   <body class="text-center">
     
         <main class="form-signin w-100 m-auto">
-        <form name="login" method="post" action="members_login.php">
-            <img class="mb-4" src="/source/Project2/img/RentCar_logo.png" alt="" width="72" height="57">
-            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+          <form name="login" method="post" action="members_login.php">
+              <img class="mb-4" src="/p2/swKim/Project2/img/RentaCar_logo.png" alt="" width="40%" height="30%">
+              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-            <div class="form-floating">
-            <input type="text" class="form-control" id="floatingInput" name="id" placeholder="ID">
-            <label for="floatingInput">ID</label>
-            </div>
-            <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" name="pass" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-            </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" name="id" placeholder="ID">
+                <label for="floatingInput">ID</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" name="pass" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
 
-            <button class="w-100 btn btn-lg btn-primary" type="button" onclick="check_input()">Sign in</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
-        </form>
+              <button class="w-100 btn btn-lg btn-primary" type="button" onclick="check_input()">Sign in</button>
+              <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+          </form>
         </main>
-
-
-    
   </body>
 </html>

@@ -33,7 +33,7 @@
             $_SESSION["username"] = $row["name"];
 
             echo "<script>
-                    opener.parent.location = '/source/Project2/php/main.php';
+                    opener.parent.location = '/p2/swKim/Project2/php/main.php';
                     window.close();
                 </script>";
         }

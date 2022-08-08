@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/source/Project2/css/signup.css">
-    <!-- <link rel="stylesheet" href="/source/Project2/css/header.css"> -->
+    <link rel="stylesheet" href="/p2/swKim/Project2/css/signup.css">
+    <!-- <link rel="stylesheet" href="/p2/swKim/Project2/css/header.css"> -->
     <title>RentaCar Signup</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
       <!-- =======  Header  ======== -->
       <header class="header">
 
-        <?php include $_SERVER['DOCUMENT_ROOT']."/source/Project2/php/header.php"?>
+        <?php include $_SERVER['DOCUMENT_ROOT']."/p2/swKim/Project2/php/header.php"?>
       </header>
       <hr>
       <!-- =========================== -->
@@ -63,7 +63,7 @@
       <hr>  
       <!-- ==================================== -->
       <footer class="footer">
-          <?php include $_SERVER['DOCUMENT_ROOT']."/source/Project2/php/footer.html"?>
+          <?php include $_SERVER['DOCUMENT_ROOT']."/p2/swKim/Project2/php/footer.html"?>
       </footer>
 
     </div>
@@ -119,7 +119,7 @@
         }
 
         function check_id() {
-            window.open("/source/Project2/php/idcheck.php?id="+document.members.id.value, "IDcheck",
+            window.open("/p2/swKim/Project2/php/idcheck.php?id="+document.members.id.value, "IDcheck",
             "left=700,top=300,width=380, height=160, scrollbars=no, resizable=yes");
         }
 
